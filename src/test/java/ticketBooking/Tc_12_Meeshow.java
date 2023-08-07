@@ -12,10 +12,10 @@ public class Tc_12_Meeshow {
 
 
 	  WebDriver driver=new ChromeDriver();
-	  Reporter.log("Opening amazon", true);
+	  Reporter.log("Opening amazon", true);// yes taking another side
 	  driver.get("https://www.meesho.com/");
-	  Thread.sleep(7000);
-	  driver.close();
+	  Thread.sleep(3000);
+	  driver.quit();
   
   
   }
